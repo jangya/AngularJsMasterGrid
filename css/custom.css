@@ -1,0 +1,191 @@
+	body { 
+		padding-top: 45px; 
+		padding-bottom: 50px;
+	}
+	nav-dropdown{
+		margin-bottom: 0px;
+	}
+	ul.errors li {
+      	color: red;
+    }
+	#footer {
+	height: 60px;
+	background-color: #f5f5f5;
+	}
+.btn-file {
+	position: relative;
+	overflow: hidden;
+}
+.typeahead{
+	overflow:auto !important;
+	max-height:400px !important;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+    #ajaxBusy {
+	  display: none;
+	  padding: 20px 0px 0px 0px;
+	  position: fixed;
+	  left: 0;
+	  top: 0;
+	  width: 100%;
+	  height: 100%;
+	  text-align: center;
+	  background: rgba( 0, 0, 0, .1 ) url(/images/ajax-loader.gif) no-repeat center center;
+	  z-index: 9999;
+	}
+	.datepicker-dropdown{
+		z-index:1151 !important;
+	}
+	.sticky-notes{
+		overflow:auto !important;
+  		font-family: 'Schoolbell', cursive;
+  		font-size:120%;
+  		height:250px;
+	}
+	textarea{
+		width:205px;	
+		height:135px !important;
+		resize:none !important;
+		overflow:auto !important;
+		font-size:14px !important;
+		font-family:futura "courier new" helvetica sans-serif !important;
+ 	}
+ 	.panel-heading .chevor a:after {
+    	font-family: 'Glyphicons Halflings';
+    	content: "\e114";    
+    	float: right; 
+    	color: grey; 
+	}
+	.panel-heading a.collapsed:after {
+    	content: "\e080";
+	}
+
+@-webkit-keyframes shake {
+    0%, 100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    10%, 30%, 50%, 70%, 90% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    20%, 40%, 60%, 80% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+}
+
+@keyframes shake {
+    0%, 100% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    10%, 30%, 50%, 70%, 90% {
+        -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    20%, 40%, 60%, 80% {
+        -webkit-transform: translateX(10px);
+        -ms-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+}
+
+.shake {
+    -webkit-animation-name: shake;
+    animation-name: shake;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    z-index: 100;
+}
+@-webkit-keyframes swing {
+    20% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+
+    40% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+
+    60% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+
+    80% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes swing {
+    20% {
+        -webkit-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+
+    40% {
+        -webkit-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+
+    60% {
+        -webkit-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+
+    80% {
+        -webkit-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.swing {
+    -webkit-transform-origin: top center;
+    -ms-transform-origin: top center;
+    transform-origin: top center;
+    -webkit-animation-name: swing;
+    animation-name: swing;
+}
+
